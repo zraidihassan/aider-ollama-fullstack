@@ -1,0 +1,26 @@
+# Secrets / config locale
+.env
+*.env
+!.env.example
+
+# macOS
+.DS_Store
+
+# Logs & temp
+*.log
+_*.py
+_*.log
+
+# Projet cible monté dans le conteneur — ne pas committer ici
+project/
+workspace/
+
+# Dépendances éventuelles si on ajoute des exemples
+node_modules/
+target/
+dist/
+
+# IDE
+.idea/
+*.iml
+.vscode/
