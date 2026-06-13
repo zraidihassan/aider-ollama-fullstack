@@ -106,6 +106,14 @@ sur `/opt/skills` dans le conteneur et se chargent via le lanceur :
 ./agent.sh --think skill design-patterns "Propose un refactoring avec un pattern adapté"
 ```
 
+**Dans le Web UI** (`gui`), il n'y a pas de bouton « charger un skill » : on le pré-charge au
+lancement (il reste en contexte, en lecture seule, toute la session) :
+```bash
+./agent.sh gui spring-boot-patterns
+./agent.sh gui security-audit test-quality   # plusieurs skills
+```
+Pour changer de skill : ferme l'UI (Ctrl-C) puis relance `./agent.sh gui <autre-skill>`.
+
 Différence avec les conventions : les `CONVENTIONS-*.md` sont **toujours** chargées (cadrage
 permanent du style), alors qu'un **skill** se charge **à la demande** pour une tâche pointue.
 

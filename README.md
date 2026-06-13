@@ -159,6 +159,14 @@ chargé **en lecture seule** dans le contexte (flag `--read`). Le dossier `skill
 
 En session `chat`, on peut aussi charger un skill à la volée : `/read /opt/skills/test-quality/SKILL.md`.
 
+**Depuis le Web UI**, le skill se pré-charge **au lancement** (le Web UI n'a pas de bouton dédié) :
+```bash
+./agent.sh gui spring-boot-patterns            # ouvre l'UI avec le skill déjà en contexte
+./agent.sh gui spring-boot-patterns test-quality   # plusieurs skills à la fois
+```
+Le skill apparaît alors dans les fichiers en lecture seule de la session et guide toutes tes
+demandes. Pour en changer, ferme l'UI (Ctrl-C) et relance `./agent.sh gui <autre-skill>`.
+
 > ♻️ **Bonus** : le format `SKILL.md` reste compatible **Claude Code** (`view skills/<nom>/SKILL.md`).
 > Les skills servent donc aux deux outils. Détails dans [`skills/README.md`](skills/README.md).
 

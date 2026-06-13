@@ -45,7 +45,7 @@ case "$CMD" in
     down)     $RUNTIME compose down ;;
     logs)     $RUNTIME logs -f "$CONTAINER" ;;
     shell)    $RUNTIME exec $EXEC "$CONTAINER" bash ;;
-    gui)      $RUNTIME exec $EXEC "$CONTAINER" gui.sh ;;
+    gui)      $RUNTIME exec $EXEC "${MODEL_ENV[@]}" "$CONTAINER" gui.sh "$@" ;;
     chat)     $RUNTIME exec $EXEC "${MODEL_ENV[@]}" "$CONTAINER" chat.sh ;;
     skills)   $RUNTIME exec $EXEC "$CONTAINER" skill.sh ;;
     skill)    $RUNTIME exec $EXEC "${MODEL_ENV[@]}" "$CONTAINER" skill.sh "$@" ;;
@@ -63,7 +63,7 @@ Usage : ./agent.sh [--think] <commande> [arguments]
   down               arrête le conteneur
   logs               affiche les logs du conteneur
   shell              ouvre un shell dans le conteneur
-  gui                Web UI Aider  -> http://localhost:8501
+  gui [skill...]     Web UI Aider (http://localhost:8501), skills pré-chargés en option
   chat               session interactive Aider (/ask, /model, /test...)
   skills             liste les skills disponibles
   skill <nom> ["…"]  charge un skill (guidance experte) dans Aider
