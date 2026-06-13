@@ -31,6 +31,8 @@ un conteneur prêt à l'emploi, **outillé pour la stack Spring Boot + Angular**
 
 ## 🏗️ Architecture
 
+![Architecture aider-ollama-fullstack](docs/architecture.png)
+
 ```
 ┌─────────────────────┐        exec         ┌──────────────────────────────┐
 │   Ton terminal      │  ./agent.sh ...     │   Conteneur ai-coding-agent  │
