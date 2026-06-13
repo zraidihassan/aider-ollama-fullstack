@@ -1,6 +1,6 @@
 # Test Quality (JUnit 5 + AssertJ)
 
-**Load**: `view .claude/skills/test-quality/SKILL.md`
+**Charger dans Aider** : `./agent.sh skill test-quality`  ·  (Claude Code : `view skills/test-quality/SKILL.md`)
 
 ---
 
@@ -21,7 +21,7 @@ Helps Claude suggest meaningful JUnit tests and improve test coverage for Java p
 ## Examples
 
 ```
-> view .claude/skills/test-quality/SKILL.md
+> ./agent.sh skill test-quality "..."
 > "Add unit tests for ExtensionFactory with edge cases"
 → Generates JUnit 5 tests with AssertJ assertions
 ```

@@ -1,6 +1,6 @@
 # Changelog Generator
 
-**Load**: `view .claude/skills/changelog-generator/SKILL.md`
+**Charger dans Aider** : `./agent.sh skill changelog-generator`  ·  (Claude Code : `view skills/changelog-generator/SKILL.md`)
 
 ---
 
@@ -22,7 +22,7 @@ Generates changelogs from git commits following established conventions. Automat
 ## Examples
 
 ```
-> view .claude/skills/changelog-generator/SKILL.md
+> ./agent.sh skill changelog-generator "..."
 > "Generate changelog for pf4j"
 → Detects pf4j format and SemVer style, outputs matching changelog
 ```

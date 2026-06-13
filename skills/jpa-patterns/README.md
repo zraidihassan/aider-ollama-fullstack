@@ -1,6 +1,6 @@
 # JPA Patterns
 
-**Load**: `view .claude/skills/jpa-patterns/SKILL.md`
+**Charger dans Aider** : `./agent.sh skill jpa-patterns`  ·  (Claude Code : `view skills/jpa-patterns/SKILL.md`)
 
 ---
 
@@ -24,7 +24,7 @@ JPA/Hibernate patterns and common pitfalls for Spring applications. Covers N+1 p
 ## Examples
 
 ```
-> view .claude/skills/jpa-patterns/SKILL.md
+> ./agent.sh skill jpa-patterns "..."
 > "I see 100 queries when loading 10 orders"
 → Identifies N+1 problem, suggests JOIN FETCH or @EntityGraph
 ```

@@ -1,6 +1,6 @@
 # Spring Boot Patterns
 
-**Load**: `view .claude/skills/spring-boot-patterns/SKILL.md`
+**Charger dans Aider** : `./agent.sh skill spring-boot-patterns`  ·  (Claude Code : `view skills/spring-boot-patterns/SKILL.md`)
 
 ---
 
@@ -22,7 +22,7 @@ Best practices and patterns for Spring Boot applications. Covers project structu
 ## Examples
 
 ```
-> view .claude/skills/spring-boot-patterns/SKILL.md
+> ./agent.sh skill spring-boot-patterns "..."
 > "Create UserController with CRUD endpoints"
 → Generates controller following REST conventions with proper status codes
 ```

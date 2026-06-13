@@ -15,13 +15,10 @@ Efficiently triage GitHub issues for Java projects with categorization and prior
 
 ## Prerequisites
 
-**Recommended**: GitHub MCP server configured for optimal token usage
-```bash
-claude mcp add github --transport http \
-  https://api.githubcopilot.com/mcp/
-```
+**Recommended**: `gh` CLI authenticated (`gh auth login`). Fetch issues and apply
+labels/responses directly from the shell — works inside the Aider container.
 
-**Alternative**: Use `gh` CLI (less token-efficient)
+> Claude Code users can alternatively wire a GitHub MCP server for fewer tokens.
 
 ## Workflow
 
@@ -431,19 +428,12 @@ Token usage: 3,200 tokens
 ## Example Workflow
 
 ```bash
-# Monday morning triage
-claude code ~/projects/pf4j
-
-> view .claude/skills/issue-triage/SKILL.md
-> "Triage the last 15 issues from pf4j/pf4j,
+# Monday morning triage (depuis le conteneur, avec gh authentifié)
+./agent.sh skill issue-triage "Triage the last 15 issues from owner/repo,
    categorize, prioritize and suggest responses"
 
-[Claude analyzes and presents summary]
-
+# -> l'agent analyse et présente un résumé, puis (dans la session) :
 > "Apply labels and post the suggested responses"
-
-[Claude executes actions]
-
 > "Generate summary for release notes"
 ```
 

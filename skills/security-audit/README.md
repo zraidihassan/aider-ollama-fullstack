@@ -1,6 +1,6 @@
 # Security Audit
 
-**Load**: `view .claude/skills/security-audit/SKILL.md`
+**Charger dans Aider** : `./agent.sh skill security-audit`  ·  (Claude Code : `view skills/security-audit/SKILL.md`)
 
 ---
 

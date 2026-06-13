@@ -94,6 +94,21 @@ Commandes utiles dans le prompt :
 ./agent.sh fix       # corrige en boucle les tests/builds en échec (MAX_ITER)
 ```
 
+### Skills experts (guidance ciblée)
+
+Les fichiers de [`skills/`](skills/) cadrent l'IA sur une bonne pratique précise. Ils sont montés
+sur `/opt/skills` dans le conteneur et se chargent via le lanceur :
+
+```bash
+./agent.sh skills                       # liste les skills
+./agent.sh skill spring-boot-patterns   # interactif, skill en contexte
+./agent.sh skill test-quality "Écris les tests JUnit 5 manquants pour UserService"
+./agent.sh --think skill design-patterns "Propose un refactoring avec un pattern adapté"
+```
+
+Différence avec les conventions : les `CONVENTIONS-*.md` sont **toujours** chargées (cadrage
+permanent du style), alors qu'un **skill** se charge **à la demande** pour une tâche pointue.
+
 ---
 
 ## 6. Stratégie de modèles

@@ -1,6 +1,6 @@
 # Clean Code
 
-**Load**: `view .claude/skills/clean-code/SKILL.md`
+**Charger dans Aider** : `./agent.sh skill clean-code`  ·  (Claude Code : `view skills/clean-code/SKILL.md`)
 
 ---
 
@@ -24,7 +24,7 @@ Clean Code principles with Java examples: DRY, KISS, YAGNI, naming conventions, 
 ## Examples
 
 ```
-> view .claude/skills/clean-code/SKILL.md
+> ./agent.sh skill clean-code "..."
 > "This method is 100 lines, help me refactor"
 → Identifies code smells, suggests Extract Method, Guard Clauses
 ```

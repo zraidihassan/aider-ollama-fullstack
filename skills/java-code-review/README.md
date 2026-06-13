@@ -1,6 +1,6 @@
 # Java Code Review
 
-**Load**: `view .claude/skills/java-code-review/SKILL.md`
+**Charger dans Aider** : `./agent.sh skill java-code-review`  ·  (Claude Code : `view skills/java-code-review/SKILL.md`)
 
 ---
 
@@ -22,7 +22,7 @@ Systematic code review checklist for Java projects. Covers null safety, exceptio
 ## Examples
 
 ```
-> view .claude/skills/java-code-review/SKILL.md
+> ./agent.sh skill java-code-review "..."
 > "Review the changes in src/main/java/org/example/UserService.java"
 → Returns findings grouped by severity (Critical → Minor)
 ```

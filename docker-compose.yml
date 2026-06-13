@@ -7,6 +7,8 @@ services:
     volumes:
       # PROJECT_PATH est obligatoire : échec explicite s'il est absent.
       - ${PROJECT_PATH:?Définis PROJECT_PATH vers ton projet Spring Boot + Angular}:/project
+      # Bibliothèque de skills montée en lecture seule (utilisée par skill.sh / agent.sh skill)
+      - ./skills:/opt/skills:ro
       - maven-cache:/root/.m2
       - npm-cache:/root/.npm
       - aider-cache:/root/.cache

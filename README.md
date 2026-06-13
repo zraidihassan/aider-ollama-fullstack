@@ -95,6 +95,8 @@ cp CONVENTIONS-BACKEND.md CONVENTIONS-FRONTEND.md /chemin/vers/ton/projet/
 | `up` / `down` | build+démarre / arrête le conteneur |
 | `gui` | Web UI Aider → http://localhost:8501 |
 | `chat` | session interactive (`/ask`, `/code`, `/model`, `/test`…) |
+| `skills` | liste les skills experts disponibles |
+| `skill <nom> ["…"]` | charge un skill (guidance experte) dans Aider |
 | `evolve "…"` | nouvelle feature (backend ou front), build vérifié |
 | `migrate "…"` | refactoring / migration, vérification complète |
 | `fix` | corrige en boucle les tests/builds en échec |
@@ -129,21 +131,44 @@ sur le même Ollama local (ex. `qwen2.5-coder:1.5b` pour la complétion).
 
 ---
 
-## 🧩 Skills Java/Spring Boot inclus (`skills/`)
+## 🧩 Skills experts (`skills/`)
 
-Le dossier [`skills/`](skills/) fournit une bibliothèque de **skills réutilisables** — des prompts
-cadrés qui apprennent à l'IA des bonnes pratiques Java/Spring Boot. Chaque skill contient un
-`SKILL.md` (chargé par l'IA) et un `README.md` (pour les humains).
+Le dossier [`skills/`](skills/) fournit une bibliothèque de **prompts experts réutilisables** :
+des fichiers `SKILL.md` autoportants qui cadrent l'IA sur une bonne pratique précise
+(revue de code, patterns Spring Boot, sécurité OWASP, tests JUnit 5, migration Java…).
 
 | Catégorie | Skills |
 |---|---|
 | **Qualité de code** | `java-code-review`, `clean-code`, `solid-principles`, `design-patterns`, `test-quality` |
-| **Spring / API** | `spring-boot-patterns`, `api-contract-review`, `jpa-patterns`, `logging-patterns` |
+| **Spring / API / Données** | `spring-boot-patterns`, `api-contract-review`, `jpa-patterns`, `logging-patterns` |
 | **Robustesse** | `security-audit`, `concurrency-review`, `performance-smell-detection`, `architecture-review` |
 | **Migration / outillage** | `java-migration`, `maven-dependency-audit`, `git-commit`, `changelog-generator`, `issue-triage` |
 
-Utilisables avec Claude Code (`view skills/<nom>/SKILL.md`) ou comme base de conventions à
-injecter dans Aider. Voir [`skills/README.md`](skills/README.md) pour le détail.
+### Comment ça marche avec Aider
+
+Aider n'a pas de système de « skills » natif : un skill est simplement un fichier Markdown
+chargé **en lecture seule** dans le contexte (flag `--read`). Le dossier `skills/` est monté sur
+`/opt/skills` dans le conteneur (volume du `docker-compose.yml`), et le lanceur fait le reste :
+
+```bash
+./agent.sh skills                       # liste les skills disponibles
+./agent.sh skill java-code-review       # session interactive, skill chargé en contexte
+./agent.sh skill spring-boot-patterns "Crée un UserController CRUD avec validation"
+./agent.sh --think skill design-patterns "Refactore ce service avec le pattern Strategy"
+```
+
+En session `chat`, on peut aussi charger un skill à la volée : `/read /opt/skills/test-quality/SKILL.md`.
+
+> ♻️ **Bonus** : le format `SKILL.md` reste compatible **Claude Code** (`view skills/<nom>/SKILL.md`).
+> Les skills servent donc aux deux outils. Détails dans [`skills/README.md`](skills/README.md).
+
+```
+skills/
+├── README.md                     # catalogue + mode d'emploi
+└── <nom-du-skill>/
+    ├── SKILL.md                  # guidance chargée dans l'IA (--read / /read)
+    └── README.md                 # doc humaine (cas d'usage, exemples)
+```
 
 ## 📁 Structure du dépôt
 
@@ -163,6 +188,7 @@ aider-ollama-fullstack/
     ├── detect-stack.sh       #   détection backend/frontend + conventions
     ├── verify.sh             #   tests backend + lint/build front (= --test-cmd)
     ├── chat.sh  gui.sh       #   modes interactifs
+    ├── skill.sh              #   charge un skill de skills/ dans Aider
     ├── evolve.sh migrate.sh  #   features / refactoring
     ├── correct-tests.sh      #   boucle de correction bornée
     └── compile.sh test.sh

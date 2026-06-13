@@ -1,6 +1,6 @@
 # Logging Patterns
 
-**Load**: `view .claude/skills/logging-patterns/SKILL.md`
+**Charger dans Aider** : `./agent.sh skill logging-patterns`  ·  (Claude Code : `view skills/logging-patterns/SKILL.md`)
 
 ---
 

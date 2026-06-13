@@ -1,6 +1,6 @@
 # Java Migration
 
-**Load**: `view .claude/skills/java-migration/SKILL.md`
+**Charger dans Aider** : `./agent.sh skill java-migration`  ·  (Claude Code : `view skills/java-migration/SKILL.md`)
 
 ---
 
@@ -23,7 +23,7 @@ Step-by-step guide for upgrading Java projects between major LTS versions (8→1
 ## Examples
 
 ```
-> view .claude/skills/java-migration/SKILL.md
+> ./agent.sh skill java-migration "..."
 > "Upgrade this project from Java 11 to 21"
 → Analyzes code, identifies breaking changes, provides step-by-step fixes
 ```

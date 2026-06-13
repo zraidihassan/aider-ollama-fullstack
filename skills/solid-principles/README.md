@@ -1,6 +1,6 @@
 # SOLID Principles
 
-**Load**: `view .claude/skills/solid-principles/SKILL.md`
+**Charger dans Aider** : `./agent.sh skill solid-principles`  ·  (Claude Code : `view skills/solid-principles/SKILL.md`)
 
 ---
 
@@ -24,7 +24,7 @@ SOLID principles checklist with detailed Java examples. Each principle includes 
 ## Examples
 
 ```
-> view .claude/skills/solid-principles/SKILL.md
+> ./agent.sh skill solid-principles "..."
 > "Review this UserService for SOLID principles"
 → Identifies SRP violation, suggests extraction of validation and notification
 ```

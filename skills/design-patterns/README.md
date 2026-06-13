@@ -1,6 +1,6 @@
 # Design Patterns
 
-**Load**: `view .claude/skills/design-patterns/SKILL.md`
+**Charger dans Aider** : `./agent.sh skill design-patterns`  ·  (Claude Code : `view skills/design-patterns/SKILL.md`)
 
 ---
 
@@ -23,7 +23,7 @@ Common design patterns with practical Java examples. Covers creational, behavior
 ## Examples
 
 ```
-> view .claude/skills/design-patterns/SKILL.md
+> ./agent.sh skill design-patterns "..."
 > "I need to create different report types (PDF, Excel, CSV)"
 → Suggests Factory pattern with implementation example
 ```

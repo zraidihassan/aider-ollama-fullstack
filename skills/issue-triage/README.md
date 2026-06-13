@@ -1,6 +1,6 @@
 # Issue Triage
 
-**Load**: `view .claude/skills/issue-triage/SKILL.md`
+**Charger dans Aider** : `./agent.sh skill issue-triage`  ·  (Claude Code : `view skills/issue-triage/SKILL.md`)
 
 ---
 
@@ -21,7 +21,7 @@ Helps Claude categorize, prioritize, and respond to issues in Java projects.
 ## Examples
 
 ```
-> view .claude/skills/issue-triage/SKILL.md
+> ./agent.sh skill issue-triage "..."
 > "Triage issues from myprj, last 15"
 → Categorizes, labels, suggests responses
 ```

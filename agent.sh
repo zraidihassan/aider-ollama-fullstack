@@ -47,6 +47,8 @@ case "$CMD" in
     shell)    $RUNTIME exec $EXEC "$CONTAINER" bash ;;
     gui)      $RUNTIME exec $EXEC "$CONTAINER" gui.sh ;;
     chat)     $RUNTIME exec $EXEC "${MODEL_ENV[@]}" "$CONTAINER" chat.sh ;;
+    skills)   $RUNTIME exec $EXEC "$CONTAINER" skill.sh ;;
+    skill)    $RUNTIME exec $EXEC "${MODEL_ENV[@]}" "$CONTAINER" skill.sh "$@" ;;
     fix)      $RUNTIME exec $EXEC "${MODEL_ENV[@]}" "$CONTAINER" correct-tests.sh ;;
     migrate)  $RUNTIME exec $EXEC "${MODEL_ENV[@]}" "$CONTAINER" migrate.sh "$@" ;;
     evolve)   $RUNTIME exec $EXEC "${MODEL_ENV[@]}" "$CONTAINER" evolve.sh "$@" ;;
@@ -63,6 +65,8 @@ Usage : ./agent.sh [--think] <commande> [arguments]
   shell              ouvre un shell dans le conteneur
   gui                Web UI Aider  -> http://localhost:8501
   chat               session interactive Aider (/ask, /model, /test...)
+  skills             liste les skills disponibles
+  skill <nom> ["…"]  charge un skill (guidance experte) dans Aider
   fix                corrige les tests/builds en échec
   migrate "texte"    migration / refactoring
   evolve  "texte"    nouvelle feature (backend ou front)

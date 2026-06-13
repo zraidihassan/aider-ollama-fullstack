@@ -1,6 +1,6 @@
 # Maven Dependency Audit
 
-**Load**: `view .claude/skills/maven-dependency-audit/SKILL.md`
+**Charger dans Aider** : `./agent.sh skill maven-dependency-audit`  ·  (Claude Code : `view skills/maven-dependency-audit/SKILL.md`)
 
 ---
 
@@ -22,7 +22,7 @@ Audit Maven dependencies for outdated versions, security vulnerabilities, and co
 ## Examples
 
 ```
-> view .claude/skills/maven-dependency-audit/SKILL.md
+> ./agent.sh skill maven-dependency-audit "..."
 > "Audit dependencies for pf4j"
 → Runs checks, categorizes updates by severity, generates report
 ```

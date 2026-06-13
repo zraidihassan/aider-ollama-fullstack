@@ -1,6 +1,6 @@
 # Git Commit Messages
 
-**Load**: `view .claude/skills/git-commit/SKILL.md`
+**Charger dans Aider** : `./agent.sh skill git-commit`  ·  (Claude Code : `view skills/git-commit/SKILL.md`)
 
 ---
 
@@ -21,7 +21,7 @@ Helps Claude write clear, concise, and conventional Git commit messages for Java
 ## Examples
 
 ```
-> view .claude/skills/git-commit/SKILL.md
+> ./agent.sh skill git-commit "..."
 > "Commit these changes"
 → fix(plugin-loader): prevent NPE when directory missing
 ```

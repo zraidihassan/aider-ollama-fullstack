@@ -1,6 +1,28 @@
 # Skills
 
-Skills are reusable prompts that teach Claude specific patterns for Java development.
+Bibliothèque de **prompts experts réutilisables** (revue, patterns, sécurité, tests…) pour le
+développement Java/Spring Boot. Chaque skill est un fichier Markdown autoportant que l'on charge
+**en lecture seule dans Aider** pour cadrer la réponse de l'IA.
+
+> ♻️ **Double compatibilité** : le format `SKILL.md` (frontmatter `name` + `description`) reste
+> aussi reconnu par **Claude Code**. Ces skills fonctionnent donc avec Aider *et* avec Claude Code.
+
+## Utilisation avec Aider
+
+Les skills sont montés en lecture seule sur `/opt/skills` dans le conteneur
+(volume `./skills` du `docker-compose.yml`). On les pilote via le lanceur :
+
+```bash
+./agent.sh skills                          # liste les skills disponibles
+./agent.sh skill java-code-review          # session interactive avec le skill chargé
+./agent.sh skill spring-boot-patterns "Crée un UserController CRUD avec validation"
+./agent.sh --think skill design-patterns "Refactore ce service avec le pattern Strategy"
+```
+
+En session interactive Aider, on peut aussi charger un skill à la volée :
+```text
+/read /opt/skills/test-quality/SKILL.md
+```
 
 ## Structure Convention
 
@@ -8,8 +30,8 @@ Each skill folder contains:
 
 | File | Purpose | Audience |
 |------|---------|----------|
-| `SKILL.md` | Instructions for Claude | AI (loaded with `view`) |
-| `README.md` | Documentation, examples, tips | Humans (onboarding) |
+| `SKILL.md` | Guidance experte chargée dans l'IA (`--read` / `/read`) | IA (Aider, Claude Code) |
+| `README.md` | Documentation, exemples, astuces | Humains (onboarding) |
 
 ## Available Skills
 
@@ -59,30 +81,15 @@ Validate your skill idea against existing skills:
 - [ ] **Unique value** - What does it add that doesn't exist?
 - [ ] **Focused scope** - Can be applied in one session (<15 checklist items)
 
-> 📖 **Full guidelines:** [docs/SKILL_GUIDELINES.md](../../docs/SKILL_GUIDELINES.md)
-
 ### Implementation Steps
 
-1. Create folder: `.claude/skills/<skill-name>/`
-2. Create `SKILL.md` with instructions for Claude
+1. Create folder: `skills/<skill-name>/`
+2. Create `SKILL.md` (frontmatter `name` + `description`, puis la guidance experte)
 3. Create `README.md` with human documentation (use existing READMEs as template)
 4. Update this table
 5. Update main README.md
 
-## Usage
-
-Skills are automatically loaded by Claude Code based on context. You can also invoke them directly:
-
-```bash
-# Automatic - Claude detects when to use skills
-> "Commit these changes"        # Loads git-commit
-> "Review this code for SOLID"  # Loads solid-principles
-
-# Manual - invoke with slash command
-> /git-commit
-> /solid-principles
-```
-
 ## Learn More
 
-- [Claude Code Skills Documentation](https://code.claude.com/docs/en/skills) - Official guide on creating and using skills
+- [Aider — documentation](https://aider.chat) · le flag `--read` charge un fichier en lecture seule
+- [Claude Code — Skills](https://code.claude.com/docs/en/skills) · format `SKILL.md` (compatibilité)
