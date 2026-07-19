@@ -211,35 +211,43 @@ de modernisation, argument fort pour les missions de migration).
 
 ## 5. Compétences (d'après le profil réel)
 
-État actuel : `Protocole MCP` · `Openclaw` · `LLM locaux` · `AI` · `vuejs` · `java8` ·
-`agile` · `Anglais` · `Apache Kafka` · `Microservices` · `Microsoft Azure` ·
-`Java` (9 recommandations 💪) · `JavaScript` (9 recommandations) · …
+État actuel (ordre d'affichage) : `Protocole MCP` · `Openclaw` · `LLM locaux` · `AI` ·
+`vuejs` · `java8` · `agile` · `Anglais` · `Apache Kafka` · `Microservices` ·
+`Microsoft Azure` · `Java` (9 recos 💪) · `JavaScript` (9 recos) · `UML` · `Subversion`
+(2 recos) · `Spring` (3 recos) · `Java Enterprise Edition` (11 recos 💪) · `XML` ·
+`Spring Framework` (1 reco) · `angular` · `Docker` (1 reco) · `jenkins` · `Nexus` ·
+`Git` (1 reco) · …
 
 ### Constats
 
-- ✅ Le cluster IA (MCP, LLM locaux) est un vrai différenciateur — à garder.
-- ❌ **`Spring Boot`, `Angular` et `Docker` sont absents** alors que ce sont les
-  mots-clés n°1 que tapent recruteurs et clients pour votre profil.
-- ❌ Casse et doublons : `vuejs`, `java8`, `agile`, `AI` font négligé, et `java8`
-  fait doublon avec `Java` (qui a 9 recommandations, gardez celle-là).
-- ❌ `Anglais` n'est pas une compétence LinkedIn : à déplacer dans la section
-  **Langues** du profil.
+- ✅ Le cluster IA (MCP, LLM locaux) est un vrai différenciateur — à garder en bonne place.
+- ✅ Bonne preuve sociale : `Java Enterprise Edition` (11 recos), `Java` (9), `JavaScript` (9).
+- ❌ **`Spring Boot` est absent** — LE mot-clé n°1 des recherches pour votre profil.
+  `Spring` et `Spring Framework` existent en doublon, mais personne ne cherche « Spring » seul.
+- ❌ `angular`, `Docker`, `jenkins` existent mais **enfouis en bas de liste** ; `angular`
+  et `jenkins` en minuscules.
+- ❌ Doublons : `Spring`/`Spring Framework`, `Java`/`java8`/`Java Enterprise Edition`.
+- ❌ `Anglais` n'est pas une compétence : à déplacer dans la section **Langues**.
+- ❌ Compétences datées en meilleure position que les actuelles : `UML`, `Subversion`, `XML`.
 - ℹ️ L'affichage « Référent technique chez vinci Autoroutes chez VINCI Autoroutes »
   vient du titre de poste qui contient déjà « chez vinci Autoroutes » — il disparaîtra
   en corrigeant le titre (voir §3).
 
 ### Actions
 
-1. **Ajouter** : `Spring Boot` · `Angular` · `Docker` · `Kubernetes` · `Jenkins` ·
-   `CI/CD` · `API REST` · `TypeScript` · `Git`
-2. **Renommer** (supprimer/recréer, LinkedIn ne renomme pas) :
-   `vuejs` → `Vue.js` · `agile` → `Méthodes agiles` · `AI` → `Intelligence artificielle (IA)`
-3. **Supprimer** : `java8` (rattacher l'expérience Prima à `Java` à la place),
-   `Anglais` (le mettre dans Langues)
-4. **Réordonner** — les 2 premières s'affichent en haut du profil :
-   `Java` (9 recos) · `Spring Boot` · `Angular` · `Apache Kafka` · `Microservices` ·
-   `Vue.js` · `Docker` · `LLM locaux` · `Protocole MCP` · `Intelligence artificielle` · …
-5. **Rattacher chaque compétence aux expériences** concernées (VINCI, Prima, PwC) :
+1. **Ajouter** : `Spring Boot` · `Kubernetes` · `CI/CD` · `API REST` · `TypeScript`
+2. **Corriger la casse** (supprimer/recréer — sans reco, aucune perte) :
+   `angular` → `Angular` · `jenkins` → `Jenkins` · `vuejs` → `Vue.js` ·
+   `agile` → `Méthodes agiles` · `AI` → `Intelligence artificielle (IA)`
+3. **Supprimer** : `java8` (rattacher Prima à `Java`), `Spring Framework` (1 reco,
+   doublon de `Spring` qui en a 3), `Anglais` (→ section Langues)
+4. **Garder mais reléguer en fin de liste** : `UML`, `Subversion`, `XML`
+   (elles portent des recommandations, inutile de les perdre — mais pas en vitrine)
+5. **Réordonner** — les 2 premières s'affichent en haut du profil :
+   `Java` · `Spring Boot` · `Angular` · `Apache Kafka` · `Microservices` · `Docker` ·
+   `Vue.js` · `Jenkins` · `LLM locaux` · `Protocole MCP` · `Intelligence artificielle` ·
+   `Java Enterprise Edition` (recos) · reste
+6. **Rattacher chaque compétence aux expériences** concernées (VINCI, Prima, PwC) :
    elles s'affichent alors sous chaque poste et pèsent dans la recherche.
 
 ---
