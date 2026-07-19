@@ -263,7 +263,43 @@ Les certifications **Oracle Java SE 6 / Java EE 6** prouvent le sérieux mais da
 
 ---
 
-## 7. Checklist rapide
+## 7. Préférences de recherche d'emploi (« Open to work »)
+
+État actuel : intitulés **« Chef de projet technique »** et **« Chef d'équipe Java »**,
+lieux Paris et périphérie (sur site + hybride + distance), début flexible.
+
+### Le problème : les intitulés ne matchent pas le profil
+
+Les recruteurs vous trouvent via ces intitulés. « Chef de projet technique » attire des
+offres de **gestion de projet** (planning, budget, MOA) — pas des missions de référent
+technique. Or tout le profil (expériences, compétences, recommandations) raconte un
+**expert technique Java qui encadre par la technique**, pas un chef de projet.
+
+### Intitulés recommandés (5 max)
+
+```
+Référent technique
+Tech Lead Java
+Développeur Full-Stack Java Angular
+Expert Java
+Architecte logiciel
+```
+
+> Gardez « Chef d'équipe Java » seulement si un rôle management vous intéresse
+> vraiment ; sinon il dilue le ciblage.
+
+### Autres réglages
+
+- **Lieux (à distance)** : « Paris et périphérie » limite le full-remote — ajoutez
+  **« France »** pour recevoir les missions 100 % télétravail de tout le pays.
+- **Types d'emploi** : pour un freelance, cochez bien **« Contrat »** (c'est le type
+  utilisé pour les missions) — « Temps plein » seul attire surtout des CDI.
+- En complément, activez **« Prestations de services »** (profil → Ouvert à →
+  Prestations de services) : c'est le canal LinkedIn dédié aux freelances, distinct
+  d'Open to work — services « Développement web », « Ingénierie logicielle »,
+  « Conseil en IA ».
+
+## 8. Checklist rapide
 
 - [ ] Titre remplacé (option A/B/C ci-dessus)
 - [ ] « À propos » remplacé (compléter les `⟦…⟧`)
