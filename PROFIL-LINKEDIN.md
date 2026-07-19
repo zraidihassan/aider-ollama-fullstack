@@ -209,16 +209,38 @@ de modernisation, argument fort pour les missions de migration).
 
 ---
 
-## 5. Compétences (ordre conseillé)
+## 5. Compétences (d'après le profil réel)
 
-LinkedIn met en avant les 2 premières : placez-y celles que vos prospects tapent.
+État actuel : `Protocole MCP` · `Openclaw` · `LLM locaux` · `AI` · `vuejs` · `java8` ·
+`agile` · `Anglais` · `Apache Kafka` · `Microservices` · `Microsoft Azure` ·
+`Java` (9 recommandations 💪) · `JavaScript` (9 recommandations) · …
 
-1. `Spring Boot` 2. `Java` 3. `Angular` 4. `Docker` 5. `Kubernetes`
-6. `Jenkins / CI-CD` 7. `API REST` 8. `Hibernate/JPA` 9. `Oracle` / `MySQL`
-10. `IA générative / LLM` (assumez-la : votre projet la crédibilise)
+### Constats
 
-Retirez ou reléguez en fin de liste : `SOAP`, `JSP`, `Servlet`, `HTML`, `XML` —
-elles datent le profil sans apporter de missions.
+- ✅ Le cluster IA (MCP, LLM locaux) est un vrai différenciateur — à garder.
+- ❌ **`Spring Boot`, `Angular` et `Docker` sont absents** alors que ce sont les
+  mots-clés n°1 que tapent recruteurs et clients pour votre profil.
+- ❌ Casse et doublons : `vuejs`, `java8`, `agile`, `AI` font négligé, et `java8`
+  fait doublon avec `Java` (qui a 9 recommandations, gardez celle-là).
+- ❌ `Anglais` n'est pas une compétence LinkedIn : à déplacer dans la section
+  **Langues** du profil.
+- ℹ️ L'affichage « Référent technique chez vinci Autoroutes chez VINCI Autoroutes »
+  vient du titre de poste qui contient déjà « chez vinci Autoroutes » — il disparaîtra
+  en corrigeant le titre (voir §3).
+
+### Actions
+
+1. **Ajouter** : `Spring Boot` · `Angular` · `Docker` · `Kubernetes` · `Jenkins` ·
+   `CI/CD` · `API REST` · `TypeScript` · `Git`
+2. **Renommer** (supprimer/recréer, LinkedIn ne renomme pas) :
+   `vuejs` → `Vue.js` · `agile` → `Méthodes agiles` · `AI` → `Intelligence artificielle (IA)`
+3. **Supprimer** : `java8` (rattacher l'expérience Prima à `Java` à la place),
+   `Anglais` (le mettre dans Langues)
+4. **Réordonner** — les 2 premières s'affichent en haut du profil :
+   `Java` (9 recos) · `Spring Boot` · `Angular` · `Apache Kafka` · `Microservices` ·
+   `Vue.js` · `Docker` · `LLM locaux` · `Protocole MCP` · `Intelligence artificielle` · …
+5. **Rattacher chaque compétence aux expériences** concernées (VINCI, Prima, PwC) :
+   elles s'affichent alors sous chaque poste et pèsent dans la recherche.
 
 ---
 
