@@ -83,8 +83,9 @@ Titre du poste : Référent Technique Java / Full-Stack
 ```
 
 ```
-Référent technique au sein du SI de VINCI Autoroutes : conception, développement
-et fiabilisation d'applications critiques.
+Référent technique au sein du SI de VINCI Autoroutes — un environnement que je
+connais en profondeur : déjà expert Java/JEE sur le SAE de 2016 à 2019, rappelé
+en 2021 comme freelance.
 
 ▸ Conception et développement d'API et de traitements Java / Spring Boot
 ▸ Architecture événementielle avec Apache Kafka
@@ -123,15 +124,66 @@ Stack : Vue.js · JavaScript/TypeScript · Java 8 · Jest · Cypress
 
 ### PwC France — Développeur fullstack senior (nov. 2019 → mars 2020)
 
-Mission courte : 3 lignes suffisent, mais « -Angular 8 -Java 11 » seul fait vide :
+La liste brute de technos devient un récit. Lieu : corriger « la défense » → « La Défense ».
 
 ```
-Développement full-stack d'une application interne.
+Développement full-stack d'une application de valorisation de données
+(datalake Azure).
 
-▸ Front Angular 8, back Java 11 / Spring Boot
-▸ ⟦1 ligne : périmètre fonctionnel ou livrable marquant⟧
+▸ Front Angular 8, back Java 11
+▸ Données : datalake Microsoft Azure, MariaDB
+▸ Chaîne CI/CD complète : Git, Jenkins, Sonar, Nexus
+▸ Méthode agile : daily meetings, rétrospectives
 
-Stack : Angular 8 · Java 11 · Spring Boot
+Stack : Angular 8 · Java 11 · Azure · MariaDB · Jenkins · Sonar
+```
+
+### « Projet TMA SAE Vinci-Autoroutes » (janv. 2016 → août 2019) — À RESTRUCTURER
+
+Problème : les champs sont inversés. Le **titre** contient le nom du projet et le champ
+**entreprise** contient « Expert Java/J2ee » — du coup pas de logo, et LinkedIn ne peut
+pas rattacher l'expérience à un vrai employeur (mauvais pour la recherche).
+
+- **Titre du poste** : `Expert Java/JEE — Référent technique`
+- **Entreprise** : ⟦l'employeur réel de l'époque — ESN ou client⟧ (choisir dans
+  l'autocomplétion pour avoir le logo)
+- **Description** :
+
+```
+Référent technique Java/JEE sur la TMA du SAE (système d'aide à l'exploitation)
+de VINCI Autoroutes.
+
+▸ Maintenance évolutive et corrective d'applications critiques d'exploitation
+▸ ⟦2-3 réalisations : montée de version, module livré, encadrement…⟧
+```
+
+> 💎 **Atout à exploiter** : avec cette mission (2016-2019) puis le retour en freelance
+> (2021-auj.), cela fait **près de 10 ans sur le SI de VINCI Autoroutes**. Un client qui
+> rappelle un prestataire et le garde des années, c'est la meilleure preuve sociale
+> possible — à mentionner dans le « À propos » et la description VINCI actuelle.
+
+### Atos — Ingénieur d'études et développement Java/J2ee (nov. 2014 → oct. 2015)
+
+Aucune description. 2-3 lignes suffisent :
+
+```
+Ingénieur d'études et développement Java/JEE ⟦pour le client X / projet Y⟧.
+
+▸ ⟦Conception et développement d'évolutions applicatives Java/JEE⟧
+▸ ⟦1 réalisation ou techno marquante : Spring, Hibernate, Oracle…⟧
+```
+
+### Steria — Référent technique (mai 2012 → nov. 2014)
+
+Typo dans le titre : « Réferent » → **Référent**. Description reformulée :
+
+```
+Référent technique sur la TMA ⟦du client X⟧.
+
+▸ Chiffrage et devis des évolutions
+▸ Rédaction des spécifications techniques
+▸ Développement Java/JEE et tests unitaires
+▸ Gestion des tickets : assistance recette et mises en production (MEP)
 ```
 
 Pour les expériences plus anciennes (RATP, France Télécom…) : 2-3 lignes suffisent,
