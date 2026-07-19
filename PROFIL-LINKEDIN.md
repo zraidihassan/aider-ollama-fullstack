@@ -9,10 +9,11 @@ certifications Oracle, références RATP / France Télécom) et du projet
 
 ## 1. Titre (headline) — le champ le plus important
 
-Le titre actuel affiche seulement « VINCI Autoroutes ». C'est une entreprise, pas une
-proposition de valeur : les recruteurs et clients cherchent par mots-clés
-(« freelance Java », « Spring Boot », « Angular »), et le titre suit chacun de vos
-commentaires. Trois variantes, de la plus sobre à la plus différenciante :
+Titre actuel : **« Tech lead - Java Architecte »**. Bonne base (rôle clair), mais il
+n'exploite que ~30 des 220 caractères disponibles : il manque les mots-clés que tapent
+recruteurs et clients (« Spring Boot », « Angular », « freelance ») et le
+différenciateur IA. Le titre suit chacun de vos commentaires — c'est votre bannière
+publicitaire permanente. Trois variantes, de la plus sobre à la plus différenciante :
 
 **Option A — classique efficace :**
 ```
@@ -37,32 +38,33 @@ Créateur d'aider-ollama-fullstack — agent de codage IA 100 % local (open-sour
 
 ---
 
-## 2. Section « À propos »
+## 2. Section « À propos » — ✅ FAIT
 
+La section « Infos » est en place avec le texte ci-dessous (appliqué le 19/07/2026).
 Structure : accroche → preuve d'expérience → différenciateur IA → stack → appel à l'action.
 
 ```
-Développeur full-stack freelance basé à Paris, je conçois et fais évoluer des
-applications d'entreprise Java depuis plus de ⟦15⟧ ans — des architectures J2EE
-historiques (RATP, France Télécom) jusqu'aux stacks modernes Spring Boot 3 / Java 21
-+ Angular que je déploie aujourd'hui, notamment chez VINCI Autoroutes.
+Développeur et référent technique Java, je conçois et fais évoluer des applications
+d'entreprise depuis 2012 — de l'écosystème J2EE historique (Steria, Atos) aux stacks
+modernes Spring Boot / Angular et aux architectures événementielles Kafka.
+
+Depuis 2016, j'accompagne VINCI Autoroutes sur son SI d'exploitation : d'abord comme
+expert Java/JEE sur le SAE, puis rappelé en 2021 comme référent technique freelance —
+près de 10 ans de confiance sur des applications critiques.
 
 Ce que mes clients me confient :
-▸ Développement full-stack : API REST Spring Boot, front Angular, bases Oracle/MySQL
-▸ Industrialisation : Docker, Kubernetes, Jenkins, pipelines CI/CD
-▸ Modernisation de legacy : montées de version Java/Spring, refonte d'architecture
-▸ Qualité : tests JUnit 5, revues de code, conventions d'équipe
+▸ Conception et développement d'API et de traitements Java / Spring Boot
+▸ Architectures microservices et événementielles (Apache Kafka)
+▸ Front moderne : Angular, Vue.js (référent frontend chez Prima Solutions, équipe de 15+)
+▸ Industrialisation : Docker, Jenkins, CI/CD, qualité de code et stratégie de tests
 
 Ma conviction : l'IA générative doit accélérer les équipes SANS compromettre la
-confidentialité du code. J'ai donc créé aider-ollama-fullstack, un agent de codage IA
-open-source (MIT) qui tourne 100 % en local — Aider + Ollama dans Docker, outillé pour
-Spring Boot + Angular, avec conventions de code et 18 skills experts versionnés
-(revue de code, audit OWASP, qualité de tests…).
-
-Certifié Oracle (Java Programmer & Java EE Web Component Developer).
+confidentialité du code. J'ai créé aider-ollama-fullstack, un agent de codage IA
+open-source (MIT) qui tourne 100 % en local — Aider + Ollama dans Docker, outillé
+pour Spring Boot + Angular, avec conventions de code et 18 skills experts versionnés.
 
 📂 Open-source : github.com/zraidihassan/aider-ollama-fullstack
-📩 Disponible pour vos projets : échangeons en message privé.
+📩 Disponible pour échanger sur vos projets : message privé bienvenu.
 ```
 
 ---
@@ -303,7 +305,22 @@ Architecte logiciel
   d'Open to work — services « Développement web », « Ingénierie logicielle »,
   « Conseil en IA ».
 
-## 8. Checklist rapide
+## 8. Le post existant sur le projet (107 impressions) — à republier autrement
+
+Un post d'il y a ~1 mois partage l'article Medium… mais c'est un **lien nu** (URL seule,
+aucun texte) : LinkedIn réduit fortement la portée des posts contenant un lien externe,
+et sans accroche personne ne clique → 107 impressions pour 1 275 abonnés (~8 %).
+
+À refaire avec la recette de `LINKEDIN.md` :
+1. Reprendre le **post long §1** (accroche + histoire + puces) tel quel ;
+2. Joindre l'image `docs/architecture.png` **en image du post** (pas en aperçu de lien) ;
+3. Mettre les liens (GitHub + Medium) **dans le premier commentaire** ;
+4. Publier mardi–jeudi 8h–10h et répondre aux commentaires dans l'heure.
+
+Republier un même sujet avec un vrai texte 1 mois après est tout à fait acceptable —
+la quasi-totalité de vos 1 275 abonnés n'a jamais vu le premier post.
+
+## 9. Checklist rapide
 
 - [ ] Titre remplacé (option A/B/C ci-dessus)
 - [ ] « À propos » remplacé (compléter les `⟦…⟧`)
