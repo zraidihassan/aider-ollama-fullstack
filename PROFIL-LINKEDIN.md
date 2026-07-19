@@ -292,8 +292,12 @@ Architecte logiciel
 
 - **Lieux (à distance)** : « Paris et périphérie » limite le full-remote — ajoutez
   **« France »** pour recevoir les missions 100 % télétravail de tout le pays.
-- **Types d'emploi** : pour un freelance, cochez bien **« Contrat »** (c'est le type
-  utilisé pour les missions) — « Temps plein » seul attire surtout des CDI.
+- **Types d'emploi** : ✅ déjà bien réglé — Temps plein + Temps partiel +
+  **Contrat court** cochés (c'est le type des missions freelance).
+- **Visibilité « Recruteurs uniquement »** : ✅ bon choix pour un freelance en mission —
+  pas de badge #OpenToWork (qui affaiblit la négociation de TJM), discrétion vis-à-vis
+  du client actuel. La visibilité publique, c'est le rôle de la page
+  « Prestations de services » ci-dessous, pas d'Open to work.
 - En complément, activez **« Prestations de services »** (profil → Ouvert à →
   Prestations de services) : c'est le canal LinkedIn dédié aux freelances, distinct
   d'Open to work — services « Développement web », « Ingénierie logicielle »,
