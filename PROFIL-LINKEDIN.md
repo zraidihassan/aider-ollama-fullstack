@@ -1,0 +1,148 @@
+# 👤 Refonte du profil LinkedIn — Hassan Zraidi
+
+Proposition de refonte personnalisée, construite à partir des informations publiques
+disponibles (mission VINCI Autoroutes, freelance Java/Spring Boot/Angular à Paris,
+certifications Oracle, références RATP / France Télécom) et du projet
+**aider-ollama-fullstack**. Les zones à compléter sont marquées `⟦…⟧`.
+
+---
+
+## 1. Titre (headline) — le champ le plus important
+
+Le titre actuel affiche seulement « VINCI Autoroutes ». C'est une entreprise, pas une
+proposition de valeur : les recruteurs et clients cherchent par mots-clés
+(« freelance Java », « Spring Boot », « Angular »), et le titre suit chacun de vos
+commentaires. Trois variantes, de la plus sobre à la plus différenciante :
+
+**Option A — classique efficace :**
+```
+Développeur Full-Stack Freelance · Java 21 / Spring Boot 3 · Angular · Docker & Kubernetes
+```
+
+**Option B — avec la mission en cours :**
+```
+Freelance Full-Stack Java/Angular · En mission chez VINCI Autoroutes ·
+Spring Boot · Docker · CI/CD
+```
+
+**Option C — différenciée par l'IA (recommandée) :**
+```
+Développeur Full-Stack Freelance · Java/Spring Boot · Angular ·
+Créateur d'aider-ollama-fullstack — agent de codage IA 100 % local (open-source)
+```
+
+> Peu de freelances Java peuvent afficher « créateur d'un outil IA open-source ».
+> C'est votre différenciateur : en 2026, les clients cherchent des développeurs qui
+> maîtrisent l'IA sans mettre leur code en danger — exactement le sujet de votre projet.
+
+---
+
+## 2. Section « À propos »
+
+Structure : accroche → preuve d'expérience → différenciateur IA → stack → appel à l'action.
+
+```
+Développeur full-stack freelance basé à Paris, je conçois et fais évoluer des
+applications d'entreprise Java depuis plus de ⟦15⟧ ans — des architectures J2EE
+historiques (RATP, France Télécom) jusqu'aux stacks modernes Spring Boot 3 / Java 21
++ Angular que je déploie aujourd'hui, notamment chez VINCI Autoroutes.
+
+Ce que mes clients me confient :
+▸ Développement full-stack : API REST Spring Boot, front Angular, bases Oracle/MySQL
+▸ Industrialisation : Docker, Kubernetes, Jenkins, pipelines CI/CD
+▸ Modernisation de legacy : montées de version Java/Spring, refonte d'architecture
+▸ Qualité : tests JUnit 5, revues de code, conventions d'équipe
+
+Ma conviction : l'IA générative doit accélérer les équipes SANS compromettre la
+confidentialité du code. J'ai donc créé aider-ollama-fullstack, un agent de codage IA
+open-source (MIT) qui tourne 100 % en local — Aider + Ollama dans Docker, outillé pour
+Spring Boot + Angular, avec conventions de code et 18 skills experts versionnés
+(revue de code, audit OWASP, qualité de tests…).
+
+Certifié Oracle (Java Programmer & Java EE Web Component Developer).
+
+📂 Open-source : github.com/zraidihassan/aider-ollama-fullstack
+📩 Disponible pour vos projets : échangeons en message privé.
+```
+
+---
+
+## 3. Expérience — mission actuelle
+
+Chaque mission doit raconter **impact + stack**, pas seulement un intitulé. Modèle pour
+VINCI Autoroutes (à ajuster avec le contenu réel de la mission) :
+
+```
+Développeur Full-Stack Freelance — VINCI Autoroutes
+⟦dates⟧ · Paris
+
+⟦1 phrase de contexte : le produit/SI concerné et son enjeu métier.⟧
+
+▸ Conception et développement d'API REST Spring Boot ⟦3⟧ / Java ⟦21⟧
+▸ Développement front Angular ⟦version⟧ (standalone components, ⟦…⟧)
+▸ Conteneurisation Docker et déploiement ⟦Kubernetes⟧, CI/CD Jenkins
+▸ ⟦Résultat mesurable : perf, délais, couverture de tests, mise en prod…⟧
+
+Stack : Java · Spring Boot · Angular · Docker · Kubernetes · Jenkins · Oracle
+```
+
+Pour les expériences plus anciennes (RATP, France Télécom…) : 2-3 lignes suffisent,
+l'essentiel est de montrer la profondeur Java (J2EE → Spring Boot = un vrai parcours
+de modernisation, argument fort pour les missions de migration).
+
+---
+
+## 4. Section « Projets » / « Sélection » (Featured)
+
+À créer si absente — c'est la vitrine du profil :
+
+1. **Épingler le dépôt GitHub** aider-ollama-fullstack avec la description :
+   ```
+   aider-ollama-fullstack — Agent de codage IA 100 % local (open-source, MIT)
+
+   Aider + Ollama dans Docker, outillé pour Spring Boot 3 / Java 21 + Angular :
+   lanceur multiplateforme, Web UI, 18 skills experts versionnés, vérification
+   automatique des builds (tests Maven + lint/build Angular).
+   ```
+2. **Épingler le post d'annonce** du projet (voir `LINKEDIN.md`) une fois publié.
+3. Éventuellement l'article dev.to (`ARTICLE.md`) une fois en ligne.
+
+---
+
+## 5. Compétences (ordre conseillé)
+
+LinkedIn met en avant les 2 premières : placez-y celles que vos prospects tapent.
+
+1. `Spring Boot` 2. `Java` 3. `Angular` 4. `Docker` 5. `Kubernetes`
+6. `Jenkins / CI-CD` 7. `API REST` 8. `Hibernate/JPA` 9. `Oracle` / `MySQL`
+10. `IA générative / LLM` (assumez-la : votre projet la crédibilise)
+
+Retirez ou reléguez en fin de liste : `SOAP`, `JSP`, `Servlet`, `HTML`, `XML` —
+elles datent le profil sans apporter de missions.
+
+---
+
+## 6. Certifications
+
+Les certifications **Oracle Java SE 6 / Java EE 6** prouvent le sérieux mais datent
+(Java 6). Deux options :
+- Les garder en les reformulant : « Oracle Certified Professional, Java » (sans
+  insister sur la version) ;
+- Idéalement, viser une certification récente : **Java SE 17/21 Developer (1Z0-829/1Z0-830)**
+  ou **Spring Certified Professional** — un vrai plus pour un freelance senior.
+
+---
+
+## 7. Checklist rapide
+
+- [ ] Titre remplacé (option A/B/C ci-dessus)
+- [ ] « À propos » remplacé (compléter les `⟦…⟧`)
+- [ ] Mission VINCI détaillée avec stack + résultats
+- [ ] Section Sélection : dépôt GitHub + post épinglé
+- [ ] Ordre des compétences revu, compétences datées reléguées
+- [ ] Lien GitHub dans Coordonnées + bouton « Site web » du profil
+- [ ] URL personnalisée : linkedin.com/in/hassan-zraidi (sans le suffixe b0234245, si dispo)
+- [ ] Photo nette + bannière (visuel dérivé de docs/architecture.png)
+- [ ] Ouvert au travail : configurer « Prestations de services » (LinkedIn Services)
+      avec « Développement web », « Ingénierie logicielle », « Conseil en IA »
+- [ ] Publier le post d'annonce (`LINKEDIN.md` §1) et répondre aux commentaires
