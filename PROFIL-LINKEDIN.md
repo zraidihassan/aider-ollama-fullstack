@@ -67,23 +67,71 @@ Certifié Oracle (Java Programmer & Java EE Web Component Developer).
 
 ---
 
-## 3. Expérience — mission actuelle
+## 3. Expériences (d'après le profil réel)
 
-Chaque mission doit raconter **impact + stack**, pas seulement un intitulé. Modèle pour
-VINCI Autoroutes (à ajuster avec le contenu réel de la mission) :
+Chaque mission doit raconter **impact + stack**, pas seulement un intitulé.
+
+### VINCI Autoroutes — mission actuelle (sept. 2021 → aujourd'hui)
+
+Corrections : le titre « Référent technique chez vinci Autoroutes » répète l'entreprise
+(elle s'affiche déjà en dessous) et « vinci » est en minuscules. Surtout : **aucune
+description** — c'est la mission la plus longue et la plus récente, elle doit être la
+plus détaillée du profil.
 
 ```
-Développeur Full-Stack Freelance — VINCI Autoroutes
-⟦dates⟧ · Paris
+Titre du poste : Référent Technique Java / Full-Stack
+```
 
-⟦1 phrase de contexte : le produit/SI concerné et son enjeu métier.⟧
+```
+Référent technique au sein du SI de VINCI Autoroutes : conception, développement
+et fiabilisation d'applications critiques.
 
-▸ Conception et développement d'API REST Spring Boot ⟦3⟧ / Java ⟦21⟧
-▸ Développement front Angular ⟦version⟧ (standalone components, ⟦…⟧)
-▸ Conteneurisation Docker et déploiement ⟦Kubernetes⟧, CI/CD Jenkins
-▸ ⟦Résultat mesurable : perf, délais, couverture de tests, mise en prod…⟧
+▸ Conception et développement d'API et de traitements Java / Spring Boot
+▸ Architecture événementielle avec Apache Kafka
+▸ Référent technique de l'équipe : revues de code, choix d'architecture,
+  accompagnement des développeurs
+▸ ⟦Front : Angular/Vue + version⟧
+▸ ⟦CI/CD, conteneurisation : Jenkins, Docker…⟧
+▸ ⟦1 résultat mesurable : mise en prod, perf, taux de couverture…⟧
 
-Stack : Java · Spring Boot · Angular · Docker · Kubernetes · Jenkins · Oracle
+Stack : Java · Spring Boot · Apache Kafka · ⟦Angular⟧ · ⟦Docker · Jenkins⟧
+```
+
+### Prima Solutions — Référent technique frontend (mai 2020 → oct. 2025)
+
+Les puces existantes sont bonnes sur le fond ; reformulation plus impact :
+
+```
+Référent technique frontend sur les produits assurance de Prima Solutions
+(éditeur de logiciels).
+
+▸ Référent d'une équipe de 15+ développeurs : revues de code systématiques,
+  diffusion des bonnes pratiques
+▸ Instruction des choix techniques : études, POC, plugins, conception d'API
+▸ Conception et développement de la bibliothèque de composants interne
+  (Effisoft : ag-grid, datepicker…) réutilisée sur l'ensemble des produits
+▸ Stratégie de tests : tests unitaires Jest, tests end-to-end Cypress
+▸ Animation agile : daily meetings, rétrospectives
+
+Stack : Vue.js · JavaScript/TypeScript · Java 8 · Jest · Cypress
+```
+
+> ⚠️ Chevauchement de dates : Prima (mai 2020 – oct. 2025) et VINCI (sept. 2021 – auj.)
+> se superposent sur 4 ans. Si les deux missions étaient bien menées en parallèle
+> (temps partagé), ajoutez « (temps partiel) » sur l'une des deux ; sinon, corrigez la
+> date de fin de Prima. Un recruteur qui voit deux temps pleins simultanés doute du profil.
+
+### PwC France — Développeur fullstack senior (nov. 2019 → mars 2020)
+
+Mission courte : 3 lignes suffisent, mais « -Angular 8 -Java 11 » seul fait vide :
+
+```
+Développement full-stack d'une application interne.
+
+▸ Front Angular 8, back Java 11 / Spring Boot
+▸ ⟦1 ligne : périmètre fonctionnel ou livrable marquant⟧
+
+Stack : Angular 8 · Java 11 · Spring Boot
 ```
 
 Pour les expériences plus anciennes (RATP, France Télécom…) : 2-3 lignes suffisent,
